@@ -1,0 +1,17 @@
+/* 기본 별 스타일 */
+.Rating-star {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #d3d3d3; /* 선택되지 않은 별의 색상 */
+  transition: color 0.2s ease-in-out;
+}
+
+/* 선택된 별 스타일 */
+.Rating-star.selected {
+  color: #ffd700; /* 선택된 별의 색상 (황금색) */
+}
+
+/* 별에 마우스를 올렸을 때의 스타일 */
+.Rating-star:hover {
+  color: #d3d3d3; /* 마우스를 올렸을 때의 색상 (주황색) */
+}
